@@ -45,6 +45,7 @@
 10. ejecutar el codigo    python manage.py makemigrations polls
 11. ejecutar codigo       python manage.py sqlmigrate polls 0001
 12. ejecutar codigo       python manage.py migrate
+    crea un super usuario         python manage.py createsuperuser
 
 13. Cada ves que se modifique el models.py  ejecutar los codigos
     python manage.py makemigrations polls
@@ -61,3 +62,4 @@
         en polls/admin/ agregamos  admin.site.register(Question
 
 
+18 buscar en localhost:8000/polls/admin
